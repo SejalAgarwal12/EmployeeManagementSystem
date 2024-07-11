@@ -1,0 +1,274 @@
+.loginPage{
+    background: url('Images/EMS.jpg');
+    background: linear-gradient(rgba(11,11,11,0.5), rgba(10,10,10,0.5)), url('Images/EMS.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.EmpLoginPage{
+    background: linear-gradient(rgba(11,11,11,0.5), rgba(10,10,10,0.5)), url('Images/empLogin1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginPage h1, .EmpLoginPage h1{
+    letter-spacing: 1.1rem;
+    text-shadow: 2px 2px 2px  blue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.loginForm{
+    color:white;
+    text-shadow: 2px 2px 2px  blue;
+    font-weight: bold;
+    background-color:transparent;
+    font-family: cursive;
+}
+.loginForm p{
+    text-shadow: none;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loginForm:hover{
+    box-shadow: 1px 5px 10px rgb(75, 79, 125);
+}
+.loginForm h2{
+    text-shadow: 2px 2px 2px  blue;
+}
+.loginForm button{
+    background-color: rgb(75, 79, 125);
+    border: 2px solid rgb(193, 156, 243);
+    color:white;
+}
+.loginBtn:hover{
+    opacity:0.5;
+    color:black;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 2px 2px 2px  blue;
+}
+#tick{
+    color:white;
+    font-weight:lighter;
+}
+
+/* HOME PAGE */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: #16164C;
+}
+  
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+   
+.sidebar a.active {
+    background-color: rgb(75, 75, 160);
+    color: white;
+}
+  
+.sidebar a:hover:not(.active) {
+    background-color: #32326C;
+    color: white;
+}
+  
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1200px;
+}
+.content h2{
+    color:#16164C;
+} 
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {
+        margin-left: 0;
+        height:1700px;
+    }
+}
+  
+@media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+}
+
+.footer{
+    background-color: #16164C;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%; 
+}
+.categForm{
+    background-color: #dadae3;
+}
+.categForm label{
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+.categForm button{
+    background-color: transparent;
+    border: 1px solid #272768;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color:#16164C;
+}
+#categCard{
+    background-color: #dadae3;
+}
+#addCategButton{
+    background-color: #16164C;
+    text-decoration: none;
+}
+#categCard thead{
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+#editBtn{
+    background-color: #575784;
+    color:white;
+    text-decoration: none;
+}
+#deleteBtn{
+    background-color:rgb(106, 106, 194);
+    color:white;
+    text-decoration: none;
+}
+
+#homeCard1, #homeCard4, #homeCard5{
+    background-image: linear-gradient(to right, #8f8fa5, rgb(146, 125, 201));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+#homeCard2, #homeCard3{
+    background-image: linear-gradient(to right, #46466f, rgb(199, 187, 227));
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+#homeCard1 h5, #homeCard2 h5, #homeCard3 h5, #homeCard4 h5, #homeCard5 h5{
+    font-size:4rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* employeeDetails page */
+#content1{
+    background-image: linear-gradient(to right, #707090,#32326C, #16164C);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content1 h2{
+    color:#16164C;
+} 
+#empBtn{
+    background-color: #16164C;
+    color:white;
+    font-size:22px;
+}
+#empBtn a{
+    text-decoration: none;
+}
+#empBtn:hover{
+    font-size: 25px;
+    background-color: transparent;
+    font-family: cursive;
+}
+/* feedback form home page */
+#homeCard0{
+    font-family: cursive;
+    background-image: linear-gradient(to right, #4a4a64, rgb(76, 52, 138));
+    color:white;
+    border-radius: 15px;
+}
+#homeCard0 h3, h4{
+    text-shadow: 4px 4px 4px #000000;
+}
+#homeCard0 a{
+    background-color: #16164C;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#homeCard0 a:hover{
+    background-color: transparent;
+    border:2px solid #16164C;
+}
+
+
+/* feedback form */
+.feedbackForm{
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    flex-direction: column; 
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #32326C;  */
+    background-image: linear-gradient(to right,#32326C,#6B6BA0, #46466f, #32326C);
+}
+.textup { 
+    text-align: center; 
+    color: #32326C; 
+    font-weight: 700; 
+} 
+.form-box { 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(36, 67, 40, 0.8); 
+    padding: 15px; 
+    border-radius: 8px; 
+    width: 500px; 
+}
+.form-box form{
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+.form-box label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-size: 17px; 
+    color: #16164C; 
+    font-weight: 600; 
+} 
+.form-box input, .form-box textarea, .form-box select { 
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+  
+} 
+.form-box button { 
+    background-color: #16164C; 
+    color: #fff; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 15px; 
+    transition: .2s linear; 
+}
+.form-box button:hover { 
+    background-color: #32326C; 
+    border: none; 
+    transform: translateY(-10px); 
+} 
+ 

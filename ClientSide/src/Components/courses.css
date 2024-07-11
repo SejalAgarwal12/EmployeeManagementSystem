@@ -1,0 +1,116 @@
+.courseBook{
+    color:#16164C;
+    font-weight: 700;
+}
+.courseAvail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#16164C;
+    font-weight: 500;
+}
+ul li{
+    font-weight: 400;
+    font-family: cursive;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color:rgb(55, 55, 109);
+    color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.courseBtn{
+    background-color: #16164C;
+    color:white;
+    font-weight: 500;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} 
+.courseBtn:hover{
+    background-color: #272768;
+} 
+.courseBtn a{
+    color:white;
+    text-decoration: none;;
+}
+.Offcanvas{
+    background-color: #f1f1f7;
+
+}
+.card:hover{
+    /* box-shadow: 5px 10px rgb(55, 55, 109); */
+    
+    box-shadow: rgba(55, 55, 109,0.8) 0px 30px 60px -12px inset, rgba(55, 55, 109,0.7) 0px 18px 36px -18px inset;
+}
+
+.helpBg{
+    /* background: #535375; */
+    background: linear-gradient(to top, #8f8fa5, #535375);
+}
+.helpBg p{
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.helpBg p a{
+    color:#16164C;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid black;
+    background: transparent;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.helpForm {
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 16px;
+    background: whitesmoke;
+    border-bottom: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.helpForm label{
+    font-size: 22px;
+    color:#16164C
+}
+.helpForm input, .helpForm textarea{
+    width:100%;
+    border:none;
+    background: transparent;
+    outline:none;
+    border-bottom: 1px solid black;
+    color:white;
+}
+.helpForm button{
+    background: #16164C;
+    color:white;
+    font-weight: 600;
+    font-size: 24px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.modalTitle{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color:#16164C;
+}
+.modalBody{
+    color:#16164C;
+    
+}
+.privacyBox{
+    background: #535375;
+    color:white;
+    font-size: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.privacyBox p{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+}
+.privacyBox1{
+    box-shadow: rgba(55, 55, 109,0.8) 0px 20px 30px -10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
